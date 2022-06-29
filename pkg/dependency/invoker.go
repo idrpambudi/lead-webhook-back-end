@@ -28,7 +28,7 @@ func RegisterHooks(
 	lifecycle.Append(
 		fx.Hook{
 			OnStart: func(context.Context) error {
-				go e.Start(fmt.Sprintf(":%d", config.Server.Port))
+				go e.Start(fmt.Sprintf(":%d", config.Port))
 				return nil
 			},
 			OnStop: func(context.Context) error {

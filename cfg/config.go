@@ -2,12 +2,8 @@ package cfg
 
 type (
 	Configurations struct {
-		Server   Server
+		Port     int
 		Database Database
-	}
-
-	Server struct {
-		Port int
 	}
 
 	Database struct {

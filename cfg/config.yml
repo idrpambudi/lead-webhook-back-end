@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+database:
+  mysql:
+    url: root:jOvO9okCvW38FLVRXVCN@tcp(containers-us-west-57.railway.app:6987)/railway?parseTime=True
